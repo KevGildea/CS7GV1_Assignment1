@@ -25,11 +25,11 @@ e.g.
   <img src="/partA/output/SSIM_by_PCs.png" width="800">
 </p>
 
-Demonstrably, both visually (see comparison below) and quantitatively (see SSIM plot above) the point of diminishing returns for image quality appears to be at k = 4 (zero indexed: [0, 1, 2, 3]).
+Demonstrably, both visually (see comparison below) and quantitatively (see SSIM plot above) the point of diminishing returns for image quality appears to be when we use the first 4 PCs (zero indexed: k=[0, 1, 2, 3]).
 
-| k=4            |  vs. |  k=16 |
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |    |  <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">
+| 4 PCs         |  vs. |  All PCs |
+|-------------------------:|:-------------------------:|:-------------------------:|
+<img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |    |  <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">|
 
 #### Part B
 
@@ -66,7 +66,7 @@ e.g.
 
 | Loaded LSP data   |  Randomly cropped and rotated |
 |----------|------:|
-| <img src="/partB/backup/output_2_0.png" width="300"> | <img src="/partB/backup/output_4_0.png" width="200"> |
-| <img src="/partB/backup/output_2_1.png" width="300"> | <img src="/partB/backup/output_4_1.png" width="200"> |
-| <img src="/partB/backup/output_2_3.png" width="300"> | <img src="/partB/backup/output_4_3.png" width="200"> |
+| <img src="/partB/backup/output_2_0.png" width="300"> | <img src="/partB/backup/output_4_0.png" width="250"> |
+| <img src="/partB/backup/output_2_1.png" width="300"> | <img src="/partB/backup/output_4_1.png" width="250"> |
+| <img src="/partB/backup/output_2_3.png" width="300"> | <img src="/partB/backup/output_4_3.png" width="250"> |
 

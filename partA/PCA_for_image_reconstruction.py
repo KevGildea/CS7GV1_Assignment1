@@ -1,17 +1,4 @@
 
-# 1- Compute PCA using 16x16 non-overlapping patches taken in this scene-image and reconstruct 
-# the whole scene-image S where each patch is reconstructed against k principal components. 
-# Store the reconstructed scene-image results for k=10 (reconstructed image R10) 
-# and k=100 (reconstructed image R100) as images (format *.png or *.jpg).
-
-# 2- Show and store as 16x16 images (format *.png or *.jpg) the first ten principal 
-# components (i.e. associated with the highest 10 eigenvalues).
-
-# 3- Explain how to select a better value for k (max 200 words). 
-# Compute and store the corresponding reconstructed image Rk as an image (format *.png or *.jpg).
-
-# 4- Comment on the quality of the reconstructed images R10 , R100 and your Rk (max 200 words)
-
 from numpy import mean,cov,cumsum,dot,linalg,size,argsort,shape,reshape,concatenate,hstack,vstack,array,poly1d,polyfit,linspace
 from pylab import imread,subplot,imshow,title,gray,figure,show,NullLocator,savefig,text,bar,close,xlabel,ylabel
 from skimage.measure import compare_ssim
@@ -75,20 +62,3 @@ xlabel('number of Principal Components (PCs) used')
 ylabel('Structural Similarity Index (SSIM)')
 savefig('output/SSIM_by_PCs.png')
 close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# choosing k: Rozenn: It can be done using the spectrum (eigenvalues) as mentioned in the lecture on PCA as well as controlling visually the quality of the reconstruction.
-#             Chao: You may try k = 1,2,3,4....N until it is close to original image. To measure it, you may use different matrix to justify yourself, for an example, similarity matrix.
-# -> use a similarity matrix

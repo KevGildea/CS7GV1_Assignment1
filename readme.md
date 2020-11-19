@@ -37,9 +37,9 @@ Demonstrably, both visually (see comparison below) and quantitatively (see SSIM 
 Data augmentation is the process of applying a variety of transformations to expand a dataset. This has relevance in deep learning in the context of the phenomenon of overfitting, whereby the network learns a function that fits the training dataset well, but fails when presented with in-the-wild examples that are dissimilar to examples in the dataset. This problem can be reduced in a number of ways. One approach is to increase the dataset with new annotated images, however, generating this data is expensive and time consuming. An inxpensive and quick way to reduce overfitting is to augment your training dataset with transformations of existing images. In the script LSP_data_augmentation.ipbyn I perform data augmentation on the Leeds Sports Pose (LSP) dataset. This is one example of a publically available training dataset that is used for 2D human pose estimation, it is specialised for sports poses which are less well represented in other datasets (e.g. Common Objects in Context (COCO)). One limitation of this dataset is that it contains significantly fewer training images than other datsets, i.e. 10,000 in LSP vs. 250,000 in COCO. 
 In the notebook script I perform an elementary augmentation of LSP by:
 1) Creating a data loader which reads in images and their associated annotated keypoints (which are in matlab format '.mat')
-2) plot a random set of images with annotated keypoints overlayed
-3) calculate image and keypoint properties; center and scale
-4) randomly crop and rotate the the random set of images and annotated keypoints
+2) Plotting a random set of images with annotated keypoints overlayed
+3) Calculating image and keypoint properties, e.g. center and scale
+4) Randomly cropping and rotating the the set of images and transforming the keypoint positions accordingly
 
 Note: To run this you must download the LSP extended dataset (available here: https://sam.johnson.io/research/lspet.html) and save to partB/lspet_dataset:
 ```

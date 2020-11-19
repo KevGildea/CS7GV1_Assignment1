@@ -64,20 +64,9 @@ CS7GV1_Assignment1
 
 e.g.
 
-Images read in from LSP dataset:
-
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="/partB/backup/output_2_0.png" width="300">  |  <img src="/partB/backup/output_2_1.png" width="300">  |  <img src="/partB/backup/output_2_3.png" width="300">
-
-Randomly cropped and rotated:
-
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="/partB/backup/output_4_0.png" width="200">  |  <img src="/partB/backup/output_4_1.png" width="200">  |  <img src="/partB/backup/output_4_3.png" width="200">
-
-
-| Loaded LSP data   |  Cool |
+| Loaded LSP data   |  Randomly cropped and rotated |
 |----------|------:|
-| col 1 is | $1600 |
-| col 2 is |   $12 |
-| col 3 is |    $1 |
+| <img src="/partB/backup/output_2_0.png" width="300"> | <img src="/partB/backup/output_4_0.png" width="200"> |
+| <img src="/partB/backup/output_2_1.png" width="300"> | <img src="/partB/backup/output_4_1.png" width="200"> |
+| <img src="/partB/backup/output_2_3.png" width="300"> | <img src="/partB/backup/output_4_3.png" width="200"> |
 

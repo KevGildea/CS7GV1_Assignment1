@@ -4,11 +4,17 @@ In determining an optimal value for k, the rule-of-thumb approach is to select a
 
 e.g.
 
-![](/partA/output/k=[0].png)
+<p align="center">
+  <img src="/partA/output/k=[0].png" width="500">
+</p>
 
-![](/partA/output/k=[0, 1].png)
+<p align="center">
+  <img src="/partA/output/k=[0, 1].png" width="500">
+</p>
 
-![](/partA/output/k=[0, 1, 2].png)
+<p align="center">
+  <img src="/partA/output/k=[0, 1, 2].png" width="500">
+</p>
 
 ![](RackMultipart20201119-4-71xh8s_html_d961ed2662164ccc.png)
 

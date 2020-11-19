@@ -12,13 +12,9 @@ e.g.
   <img src="/partA/output/k=[0, 1].png" width="500">
 </p>
 
-
-
 <p align="center">
   ......
 </p>
-
-
 
 <p align="center">
   <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">
@@ -26,11 +22,14 @@ e.g.
 
 ![](RackMultipart20201119-4-71xh8s_html_d961ed2662164ccc.png)
 
-Demonstrably, both visually (see comparison below) and quantitatively (see SSIM plot above) the point of diminishing returns for image quality appears to be at k = 4 (zero-indexed).
+Demonstrably, both visually (see comparison below) and quantitatively (see SSIM plot above) the point of diminishing returns for image quality appears to be at k = 4 (zero indexed: [0, 1, 2, 3]).
 
 | ![](/assets/images/Ped-Pose-Jump.png) | vs. | ![](/assets/images/Ped-Pose-Jump.png) |
 | --- | --- | --- |
 
+| k=4            |  vs. |  k=16 |
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/partA/output/k=[0, 1, 2, 3].png)  |    |  ![](/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png)
 
 #### Part B
 

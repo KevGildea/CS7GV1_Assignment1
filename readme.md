@@ -75,9 +75,9 @@ Randomly cropped and rotated:
 <img src="/partB/backup/output_4_0.png" width="200">  |  <img src="/partB/backup/output_4_1.png" width="200">  |  <img src="/partB/backup/output_4_3.png" width="200">
 
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Loaded LSP data   |  Cool |
+|----------|------:|
+| col 1 is | $1600 |
+| col 2 is |   $12 |
+| col 3 is |    $1 |
 

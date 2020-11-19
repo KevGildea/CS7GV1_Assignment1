@@ -5,7 +5,6 @@ In determining an optimal value for k, the rule-of-thumb approach is to select a
 e.g.
 
 | ![](/partA/output/k=[0].png) |
-| --- |
 | ![](/partA/output/k=[0, 1].png) |
 | ![](/partA/output/k=[0, 1, 2].png) |
 

@@ -22,6 +22,10 @@ e.g.
 
 ![](RackMultipart20201119-4-71xh8s_html_d961ed2662164ccc.png)
 
+<p align="center">
+  <img src="SSIM_by_PCs.png" width="800">
+</p>
+
 Demonstrably, both visually (see comparison below) and quantitatively (see SSIM plot above) the point of diminishing returns for image quality appears to be at k = 4 (zero indexed: [0, 1, 2, 3]).
 
 | k=4            |  vs. |  k=16 |

@@ -65,10 +65,10 @@ CS7GV1_Assignment1
 e.g.
 
 Images read in from LSP dataset:
-<img src="/partB/backup/output_2_0.png" width="150">  |  <img src="/partB/backup/output_2_1.png" width="150">  |  <img src="/partB/backup/output_2_3.png" width="150">
+<img src="/partB/backup/output_2_0.png" width="250">  |  <img src="/partB/backup/output_2_1.png" width="250">  |  <img src="/partB/backup/output_2_3.png" width="250">
 
 Randomly cropped and rotated:
-<img src="/partB/backup/output_4_0.png" width="150">  |  <img src="/partB/backup/output_4_1.png" width="150">  |  <img src="/partB/backup/output_4_3.png" width="150">
+<img src="/partB/backup/output_4_0.png" width="250">  |  <img src="/partB/backup/output_4_1.png" width="250">  |  <img src="/partB/backup/output_4_3.png" width="250">
 
 
 

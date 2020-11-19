@@ -26,7 +26,7 @@ Demonstrably, both visually (see comparison below) and quantitatively (see SSIM 
 
 | k=4            |  vs. |  k=16 |
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |  vs.  |  <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">
+<img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |    |  <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">
 
 #### Part B
 

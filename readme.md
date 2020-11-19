@@ -47,16 +47,18 @@ CS7GV1_Assignment1
 `-- |-- lspet_dataset
     `-- |-- images
         |   |-- im00001.jpg
-        |   `-- im00002.jpg
-        |   `-- im00003.jpg
-        |   `-- ....
-        |   `-- im10000.jpg
+        |   |-- im00002.jpg
+        |   |-- im00003.jpg
+        |   |-- ....
+        |   |-- im10000.jpg
         `-- visualized
-            |-- train2017
-            |   |-- 000000000009.jpg
-            |   |-- 000000000025.jpg
-            |   |-- 000000000030.jpg
-            |   |-- ... 
+        |   |-- im00001.jpg
+        |   |-- im00002.jpg
+        |   |-- im00003.jpg
+        |   |-- ....
+        |   |-- im10000.jpg
+        '-- joints.mat
+        '-- README.txt
 
 ```
 

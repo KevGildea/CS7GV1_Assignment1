@@ -20,10 +20,9 @@ e.g.
   <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">
 </p>
 
-![](RackMultipart20201119-4-71xh8s_html_d961ed2662164ccc.png)
 
 <p align="center">
-  <img src="SSIM_by_PCs.png" width="800">
+  <img src="/partA/output/SSIM_by_PCs.png" width="800">
 </p>
 
 Demonstrably, both visually (see comparison below) and quantitatively (see SSIM plot above) the point of diminishing returns for image quality appears to be at k = 4 (zero indexed: [0, 1, 2, 3]).

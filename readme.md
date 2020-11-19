@@ -12,6 +12,14 @@ e.g.
   <img src="/partA/output/k=[0, 1].png" width="500">
 </p>
 
+
+
+<p align="center">
+  ......
+</p>
+
+
+
 <p align="center">
   <img src="/partA/output/k=[0, 1, 2].png" width="500">
 </p>

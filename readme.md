@@ -41,7 +41,7 @@ In the notebook script I perform an elementary augmentation of LSP by:
 4) randomly crop and rotate the the random set of images and annotated keypoints
 
 Note: To run this you must download the LSP extended dataset (available here: https://sam.johnson.io/research/lspet.html) and save to partB/lspet_dataset
-
+```
 CS7GV1_Assignment1
 |-- partB
 `-- |-- lspet_dataset

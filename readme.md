@@ -57,8 +57,19 @@ CS7GV1_Assignment1
         |   |-- im00003.jpg
         |   |-- ....
         |   |-- im10000.jpg
-        '-- joints.mat
-        '-- README.txt
+        `-- joints.mat
+        `-- README.txt
 
 ```
+
+e.g.
+
+Images read in from LSP dataset:
+<img src="/partB/backup/output_2_0.png" width="500">  |  <img src="/partB/backup/output_2_1.png" width="500">  |  <img src="/partB/backup/output_2_3.png" width="500">
+
+Randomly cropped and rotated:
+<img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |  <img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |  <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">
+
+
+
 

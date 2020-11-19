@@ -27,6 +27,15 @@ e.g.
 
 Demonstrably, both visually (see comparison below) and quantitatively (see SSIM plot above) the point of diminishing returns for image quality appears to be when we use the first 4 PCs (zero indexed: k=[0, 1, 2, 3]).
 
+| Loaded LSP data   |  vs. |  Randomly cropped and rotated |
+-------------------------:|:-------------------------:|:-------------------------:|
+<img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |    |  <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">|
+
+| First 4 PCs   |      vs.     |  All PCs |
+|----------|:-------------:|------:|
+| <img src="/partA/output/k=[0, 1, 2, 3].png" width="500"> |  - | <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500"> |
+
+
 #### Part B
 
 Data augmentation is the process of applying a variety of transformations to expand a dataset. This has relevance in deep learning in the context of the phenomenon of overfitting, whereby the network learns a function that fits the training dataset well, but fails when presented with in-the-wild examples that are dissimilar to examples in the dataset. This problem can be reduced in a number of ways. One approach is to increase the dataset with new annotated images, however, generating this data is expensive and time consuming. An inxpensive and quick way to reduce overfitting is to augment your training dataset with transformations of existing images. In the script LSP_data_augmentation.ipbyn I perform data augmentation on the Leeds Sports Pose (LSP) dataset. This is one example of a publically available training dataset that is used for 2D human pose estimation, it is specialised for sports poses which are less well represented in other datasets (e.g. Common Objects in Context (COCO)). One limitation of this dataset is that it contains significantly fewer training images than other datsets, i.e. 10,000 in LSP vs. 250,000 in COCO. 
@@ -66,8 +75,3 @@ e.g.
 | <img src="/partB/backup/output_2_1.png" width="300"> | <img src="/partB/backup/output_4_1.png" width="250"> |
 | <img src="/partB/backup/output_2_3.png" width="300"> | <img src="/partB/backup/output_4_3.png" width="250"> |
 
-
-
-| Loaded LSP data   |  vs. |  Randomly cropped and rotated |
--------------------------:|:-------------------------:|:-------------------------:|
-<img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |    |  <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">|

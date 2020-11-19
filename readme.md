@@ -67,7 +67,7 @@ e.g.
 
 | Loaded LSP data   |  Randomly cropped and rotated |
 |----------|------:|
-| <img src="/partB/backup/output_2_0.png" width="300"> | <img src="/partB/backup/output_4_0.png" width="250"> |
-| <img src="/partB/backup/output_2_1.png" width="300"> | <img src="/partB/backup/output_4_1.png" width="250"> |
-| <img src="/partB/backup/output_2_3.png" width="300"> | <img src="/partB/backup/output_4_3.png" width="250"> |
+| <img src="/partB/backup/output_2_0.png" width="325"> | <img src="/partB/backup/output_4_0.png" width="250"> |
+| <img src="/partB/backup/output_2_1.png" width="325"> | <img src="/partB/backup/output_4_1.png" width="250"> |
+| <img src="/partB/backup/output_2_3.png" width="325"> | <img src="/partB/backup/output_4_3.png" width="250"> |
 

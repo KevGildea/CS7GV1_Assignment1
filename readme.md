@@ -66,7 +66,7 @@ e.g.
 
 Images read in from LSP dataset:
 
-<img src="/partB/backup/output_2_0.png" width="250">  |  <img src="/partB/backup/output_2_1.png" width="250">  |  <img src="/partB/backup/output_2_3.png" width="250">
+<img src="/partB/backup/output_2_0.png" width="300">  |  <img src="/partB/backup/output_2_1.png" width="300">  |  <img src="/partB/backup/output_2_3.png" width="300">
 
 Randomly cropped and rotated:
 

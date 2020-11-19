@@ -27,7 +27,8 @@ e.g.
 
 Demonstrably, both visually (see comparison below) and quantitatively (see SSIM plot above) the point of diminishing returns for image quality appears to be when we use the first 4 PCs (zero indexed: k=[0, 1, 2, 3]).
 
- Top 4 PCs  |  vs. | All PCs |
+
+| Loaded LSP data   |  vs. |  Randomly cropped and rotated |
 -------------------------:|:-------------------------:|:-------------------------:|
 <img src="/partA/output/k=[0, 1, 2, 3].png" width="500">  |    |  <img src="/partA/output/k=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].png" width="500">|
 

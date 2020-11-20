@@ -5,6 +5,9 @@ from skimage.measure import compare_ssim
 
 pic_orig = imread('profilepic256x256.png') # must be a 256x256 image i.e. (16x16)x(16x16)
 pic_orig = mean(pic_orig,2)
+#pic_orig_r = pic_orig[:,:,0] # to be done: PCA reconstruction of colour image
+#pic_orig_g = pic_orig[:,:,1]
+#pic_orig_b = pic_orig[:,:,2]
 
 # split the image into 256 patches of size 16x16
 patches=[]
